@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+}
+body{
+    position: relative;
+}
+#headermain{
+    background-size: cover;
+    height: 50px;
+    width: auto;
+    background-color: grey;
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    padding-left: 20px;
+    color: white;
+    position: sticky;
+    top: 0;
+}
+#spanheader{
+    font-size: bold;
+    padding-right: 40%;
+    padding-top: 5px;
+}
+#uldiv{
+    display: flex;
+    flex-direction: row;
+}
+#uldiv li{
+    display: inline-block;
+    padding-top: 5px;
+    padding-right: 20px;
+}
+#uldiv li a{
+    text-decoration: none;
+    color: white;
+}
+#uldiv li a:hover{
+    color: orange;
+    text-decoration: underline;
+}
+section{
+    height: 80vh;
+    border-top: 2px solid orange;
+    border-left: 2px solid white;
+    border-bottom: 2px solid green;
+}
+section:target{
+    background-color: lightblue;
+}
+#home{
+    background-image: url("./lockdown.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}#preventions{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    background-image: url("./precautions.jpeg");
+    background-size: 30%;
+    background-position: right;
+    background-repeat: no-repeat;
+}#preventions h2{
+    color: red;
+    text-align: center;
+    margin-bottom: 20px;
+}#preventions ul{
+    list-style-type: disc;
+    margin-left: 20px;
+}#preventions li{
+    margin-bottom: 10px;
+}#preventions img{
+    width: 24px;
+    height: 24px;
+}#preventions h3{
+    margin-left: 35px;
+    margin-bottom: 10px;
+}
+#preventions h2:hover{
+    color: orangered;
+    text-decoration: underline;
+}#symptoms{
+    background-image: url();
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+}#symptoms h2{
+    text-align: center;
+    margin-bottom: 20px;
+    color: red;
+    font-size: 30px;
+}#symptoms h3{
+    text-align: center;
+    margin-bottom: 20px;
+}#symptoms ul{
+    margin-left: 40px;
+}#symptoms ul li{
+    margin-bottom: 10px;
+}#mainfooter{
+    height: 50px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
